@@ -11,10 +11,15 @@ Todo
 
 - [x] Rails new
 - [x] Turn our feature into a test
-- [ ] Maybe schema, maybe figure out where we're getting music from
-- [ ] Make it work (whatever is currently preventing progress on the feature)
+- [x] Maybe schema, maybe figure out where we're getting music from
+- [x] Make it work (whatever is currently preventing progress on the feature)
 - [ ] Once we have it working, we can look at missing edge cases, and so forth we make those "units", and unit test them
 
+
+Future
+------
+
+- [ ] Works when there are no songs in the playlist
 
 
 What do our users need / want?
