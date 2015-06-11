@@ -37,6 +37,8 @@ we make sure to deliver a little bit of value at each stage.
 Maybe the next feature will allow users to import SoundCloud songs,
 maybe it will allow them to talk to each other,
 maybe it will style the site,
+maybe it will fix that bug we found, where the playlist is empty
+(do we want some default behaviour? do we want to simply not display links to such pages?)
 maybe it will switch over to some other music api...
 maybe it will cause the queue to shuffle better, or add in a "previously played" section
 ...we don't know what's best, we'll get this thing working and see what we want,
@@ -78,8 +80,8 @@ Feature: Unauthenticated user can listen to music
 ```
 
 
-Todo
-----
+What we actually did
+--------------------
 
 - [x] Run [rails new](https://github.com/JoshCheek/listening_social/commit/2ff3800f18069d4532d13597d0dc37e53f4c30fd)
 - [x] Turn our feature into a test.
@@ -97,10 +99,3 @@ Todo
     and edited our schema / models, until it did what we needed it to do.
 - [x] Make it work (whatever is currently preventing progress on the feature)
 - [ ] Once we have it working, we can look at missing edge cases, and so forth we make those "units", and unit test them
-
-
-Future
-------
-
-- [ ] Works when there are no songs in the playlist
-
