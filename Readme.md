@@ -12,6 +12,9 @@ Todo
 - [x] Rails new
 - [x] Turn our feature into a test
 - [x] Maybe schema, maybe figure out where we're getting music from
+      [Here](https://gist.github.com/JoshCheek/6a452bc4e39a9aea2088)
+      is how we figured out our database using Seeing Is Believing
+      (set language to Ruby, type `s_arb` and press tab)
 - [x] Make it work (whatever is currently preventing progress on the feature)
 - [ ] Once we have it working, we can look at missing edge cases, and so forth we make those "units", and unit test them
 
