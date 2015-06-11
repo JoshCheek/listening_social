@@ -11,3 +11,10 @@ group :development, :test do
   gem 'byebug'
   gem 'web-console', '~> 2.0'
 end
+
+group :test do
+  gem 'better_errors'
+  gem 'rspec-rails'
+  gem 'capybara'
+  gem 'mrspec'
+end
