@@ -1,4 +1,6 @@
-RSpec.describe 'Unauthenticated user can listen to music', type: :feature do
+require 'rails_helper'
+
+RSpec.feature 'Unauthenticated user can listen to music' do
   specify 'what the thing says...' do
     our_love = autumn_leaves = nil
 
