@@ -23,7 +23,7 @@ RSpec.feature 'Unauthenticated user can listen to music' do
 
     # I am a potential user, considering whether the app is worth my time (I'm not logged in)
 
-    # I go to ListeningSocial and see a list of genres (these will be prepopulated)
+    # I go to ListeningSocial and see a list of playlists that I can listen to (these will be prepopulated)
     page.visit root_path
     playlists.each do |playlist|
       expect(page).to have_content playlist.name
@@ -33,7 +33,7 @@ RSpec.feature 'Unauthenticated user can listen to music' do
     page.click_on 'Jazz'
 
     # Now I'm in the "Jazz" channel
-    expect(page.current_url).to eq playlist_path('Jazz')
+    expect(page.current_path).to eq playlist_path('Jazz')
 
     # I can see see a list of the other "Jazz" enthusiasts with me
     # TODO: descope for now :)
