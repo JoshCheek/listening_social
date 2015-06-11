@@ -2,6 +2,13 @@
   <div class="title">
     <%= @playlist.currently_playing.title %>
   </div>
+
+  <iframe width="100%"
+          height="450"
+          scrolling="no"
+          frameborder="no"
+          src="<%= @playlist.currently_playing.soundcloud_url %>">
+  </iframe>
 </section>
 
 <aside class="queue">
