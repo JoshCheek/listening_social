@@ -10,7 +10,7 @@ Todo
 ----
 
 - [x] Rails new
-- [ ] Turn our feature into a test
+- [x] Turn our feature into a test
 - [ ] Maybe schema, maybe figure out where we're getting music from
 - [ ] Make it work (whatever is currently preventing progress on the feature)
 - [ ] Once we have it working, we can look at missing edge cases, and so forth we make those "units", and unit test them
@@ -28,13 +28,13 @@ What do our users need / want?
 What are we going to build that produces this for them?
 -------------------------------------------------------
 
-*Chatroom with music playing
-*A play queue per chatroom
-*Private chatrooms <-- Descoped for now
-  *creator gets to choose who the curators are
-  *curators get to choose what the music is
-*Public chatrooms based on genre
-  *everyone votes what the next song is
+* Chatroom with music playing
+* A play queue per chatroom
+* Private chatrooms <-- Descoped for now
+  * creator gets to choose who the curators are
+  * curators get to choose what the music is
+* Public chatrooms based on genre
+  * everyone votes what the next song is
 
 
 ```
