@@ -43,8 +43,13 @@ RSpec.feature 'Unauthenticated user can listen to music' do
       expect(page.text).to eq our_love.title
     end
 
+    # Queue does not include the currently playing song
+    page.within '.queue' do
+      expect(page.text).to_not have_content our_love.title
+    end
+
     # I see the upcoming queue, the next song is "Autumn Leaves" by "Chet Baker"
-    page.within '.queue .next .title' do
+    page.within '.queue .song:nth-child(1) .title' do
       expect(page.text).to eq autumn_leaves.title
     end
 

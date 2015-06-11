@@ -1,0 +1,13 @@
+<section class="current">
+  <div class="title">
+    <%= @playlist.currently_playing.title %>
+  </div>
+</section>
+
+<aside class="queue">
+  <% @playlist.queue.each do |song| %>
+    <div class="song">
+      <div class="title"><%= song.title %></div>
+    </div>
+  <% end %>
+</aside>
